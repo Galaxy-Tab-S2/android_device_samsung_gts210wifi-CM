@@ -13,10 +13,10 @@
 # limitations under the License.
 
 # Inherit some common Bliss stuff.
-$(call inherit-product, vendor/bliss/config/common_full_tablet_wifionly.mk)
+$(call inherit-product, vendor/cm/config/common_full_tablet_wifionly.mk)
 
 # Inherit device configuration
-$(call inherit-product, device/samsung/matissewifi/full_matissewifi.mk)
+$(call inherit-product, device/samsung/gts28wifi/full_gts28wifi.mk)
 
 # Release name
 PRODUCT_RELEASE_NAME := SM-T710
