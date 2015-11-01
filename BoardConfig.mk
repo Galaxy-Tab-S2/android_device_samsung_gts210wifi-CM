@@ -158,9 +158,6 @@ BLUE_LED_PATH := "/sys/class/leds/led_b/brightness"
 BACKLIGHT_PATH := "/sys/class/backlight/panel/brightness"
 CHARGING_ENABLED_PATH := /sys/class/power_supply/battery/batt_lp_charging
 
-# RIL.java overwrite
-BOARD_RIL_CLASS := ../../../$(LOCAL_PATH)/ril
-
 # Recovery
 TARGET_RECOVERY_FSTAB := $(LOCAL_PATH)/rootdir/etc/fstab.universal5433
 TARGET_OTA_ASSERT_DEVICE := gts28wifi,gts28wifixx
