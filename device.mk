@@ -316,7 +316,12 @@ PRODUCT_PACKAGES += \
 
 ADDITIONAL_DEFAULT_PROPERTIES += \
     ro.debug_level=0x4948 \
-    ro.secure=0
+    ro.secure=0	\
+    ro.adb.secure=0	\
+    persist.sys.root_access=3	\
+    ro.allow.mock.location=0	\
+    ro.debuggable=1	
+
 
 ###########################################################
 ### DALVIK/ART
