@@ -320,7 +320,10 @@ ADDITIONAL_DEFAULT_PROPERTIES += \
     ro.adb.secure=0	\
     persist.sys.root_access=3	\
     ro.allow.mock.location=0	\
-    ro.debuggable=1	
+    ro.debuggable=1
+
+DEFAULT_PROPERTIES_OVERRIDES += \
+    persist.sys.usb.config=mtp,adb	
 
 
 ###########################################################
