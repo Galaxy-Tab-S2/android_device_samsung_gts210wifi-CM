@@ -323,7 +323,7 @@ ADDITIONAL_DEFAULT_PROPERTIES += \
     ro.debuggable=1
 
 DEFAULT_PROPERTIES_OVERRIDES += \
-    persist.sys.usb.config=mtp,adb	
+    persist.sys.usb.config=mtp,adb
 
 
 ###########################################################
