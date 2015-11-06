@@ -26,8 +26,6 @@ TARGET_BOOTLOADER_BOARD_NAME := universal5433
 BOARD_KERNEL_BASE := 0x10000000
 BOARD_KERNEL_PAGESIZE := 2048
 #BOARD_KERNEL_CMDLINE := The bootloader ignores the cmdline from the boot.img
-BOARD_KERNEL_SEPARATED_DT := true
-
 TARGET_KERNEL_CONFIG := cm_exynos5433-gts28wifi_defconfig
 TARGET_KERNEL_SOURCE := kernel/samsung/gts28wifi
 
