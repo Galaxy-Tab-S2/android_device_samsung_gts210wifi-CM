@@ -19,13 +19,25 @@ PRODUCT_COPY_FILES += \
 ###########################################################
 
 PRODUCT_PACKAGES += \
-    fstab.universal5433 \
-    init.carrier.rc \
-    init.samsung.rc \
-    init.universal5433.rc \
-    init.universal5433.usb.rc \
-    init.universal5433.wifi.rc \
-    ueventd.universal5433.rc
+fstab.samsungexynos5433 \
+fstab.universal5433 \
+init.carrier.rc \
+init.container.rc \
+init.environ.rc \
+init.goldfish.rc \
+init.rc \
+init.rilcommon.rc \
+init.samsungexynos5433.rc \
+init.trace.rc \
+init.universal5433.rc \
+init.universal5433.usb.rc \
+init.usb.rc \
+init.wifi.rc \
+init.zygote32.rc \
+ueventd.goldfish.rc \
+ueventd.rc \
+ueventd.samsungexynos5433.rc \
+ueventd.universal5433.rc 
 
 ###########################################################
 ### BCMDHD DRIVER
