@@ -29,11 +29,8 @@ BOARD_KERNEL_PAGESIZE := 2048
 TARGET_KERNEL_CONFIG := cm_exynos5433-gts28wifi_defconfig
 TARGET_KERNEL_SOURCE := kernel/samsung/gts28wifi
 
-#DT
-BOARD_DTBTOOL_ARGS := 2
-
 # Extracted with libbootimg
-BOARD_MKBOOTIMG_ARGS := --kernel_offset 0x00008000 --ramdisk_offset 0x01000000 --tags_offset 0x00000100 --board SYSMAGIC000K
+BOARD_MKBOOTIMG_ARGS := --kernel_offset 0x00008000 --ramdisk_offset 0x01000000 --tags_offset 0x00000100 --dt device/samsung/gts28wifi/dtb.img --board SYSMAGIC000K
 
 #Partitions
 BOARD_BOOTIMAGE_PARTITION_SIZE :=     0x105c0000
