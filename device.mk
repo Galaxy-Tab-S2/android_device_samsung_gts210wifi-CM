@@ -283,7 +283,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Default to MTP protocol
 PRODUCT_PROPERTY_OVERRIDES += \
-    persist.sys.usb.config=mtp
+    persist.sys.usb.config=adb
 
 ###########################################################
 ### FILESYSTEM MANAGEMENT
@@ -330,10 +330,6 @@ ADDITIONAL_DEFAULT_PROPERTIES += \
     persist.sys.root_access=3	\
     ro.allow.mock.location=0	\
     ro.debuggable=1
-
-DEFAULT_PROPERTIES_OVERRIDES += \
-    persist.sys.usb.config=mtp,adb
-
 
 ###########################################################
 ### DALVIK/ART
