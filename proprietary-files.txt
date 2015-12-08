@@ -16,9 +16,6 @@ etc/wifi/nvram_net.txt
 etc/wifi/nvram_net.txt_4356_a2
 etc/wifi/nvram_net.txt_4358_a1
 
-### IR Blaster
-lib/hw/consumerir.exynos5.so
-
 ### Media
 # hevc for v4l2
 vendor/firmware/hevc_fw.bin
