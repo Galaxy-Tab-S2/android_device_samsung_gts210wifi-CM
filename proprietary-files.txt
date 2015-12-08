@@ -10,11 +10,11 @@ etc/wifi/bcmdhd_mfg.bin
 etc/wifi/bcmdhd_sta.bin
 etc/wifi/cred.conf
 etc/wifi/nvram_mfg.txt
-etc/wifi/nvram_mfg.txt_a0
-etc/wifi/nvram_mfg.txt_murata
+etc/wifi/nvram_mfg.txt_4356_a2
+etc/wifi/nvram_mfg.txt_4358_a1
 etc/wifi/nvram_net.txt
-etc/wifi/nvram_net.txt_a0
-etc/wifi/nvram_net.txt_murata
+etc/wifi/nvram_net.txt_4356_a2
+etc/wifi/nvram_net.txt_4358_a1
 
 ### NFC
 etc/sec_s3fwrn5_rfreg_thl.bin
