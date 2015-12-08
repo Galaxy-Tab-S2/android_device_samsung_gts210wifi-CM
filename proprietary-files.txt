@@ -22,14 +22,7 @@ vendor/firmware/hevc_fw.bin
 # S5P Multi Format Codec
 vendor/firmware/mfc_fw.bin
 # Image subsystem
-vendor/firmware/fimc_is_fw2_imx240.bin
-vendor/firmware/fimc_is_ois_63A.bin
-vendor/firmware/fimc_is_ois_63B.bin
-vendor/firmware/companion_default_coef.bin
-vendor/firmware/companion_default_lsc.bin
-vendor/firmware/companion_fw_imx240_evt1.bin
-vendor/firmware/companion_imx240_master_setfile.bin
-vendor/firmware/companion_imx240_mode_setfile.bin
+vendor/firmware/fimc_is_fw2_4h5.bin
 
 ### Audio
 etc/firmware/florida-dsp1-edac.bin
