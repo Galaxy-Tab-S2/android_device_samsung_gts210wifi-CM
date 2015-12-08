@@ -12,11 +12,12 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-# Inherit from those products. Most specific first.
-$(call inherit-product, $(SRC_TARGET_DIR)/product/full_base.mk)
+# Get the long list of APNs
+PRODUCT_COPY_FILES := device/sample/etc/apns-full-conf.xml:system/etc/apns-conf.xml
 
-# Inherit from s3ve3g device
+# Inherit device configuration
 $(call inherit-product, device/samsung/gts28wifi/device.mk)
+$(call inherit-product, device/samsung/gts28wifi/device-common.mk)
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := gts28wifi
