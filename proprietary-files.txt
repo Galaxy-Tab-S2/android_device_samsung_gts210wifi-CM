@@ -63,9 +63,6 @@ vendor/lib/libwvm.so
 lib/libsecnativefeature.so
 lib/libsec-ril.so
 
-### IR
-lib/hw/consumerir.exynos5.so
-
 ### Mobicore
 app/FFFFFFFF000000000000000000000001.drbin
 app/mcRegistry/07010000000000000000000000000000.tlbin
