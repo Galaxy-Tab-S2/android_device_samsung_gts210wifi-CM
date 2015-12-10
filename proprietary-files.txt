@@ -49,9 +49,7 @@ vendor/lib/libRSDriverArm.so
 lib/omx/libOMX.Exynos.AVC.Encoder.so
 
 ### Sensors
-etc/lhd.conf
-bin/lhd
-lib/hw/sensors.universal5433.so
+lib/hw/sensors.exynos5.so
 
 ### Widevine
 lib/liboemcrypto.so
