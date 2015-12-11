@@ -10,4 +10,3 @@ echo "init.sec.boot.sh: start" > /dev/kmsg
 #
 # This will trigger the initcall of the bcmdhd wifi module.
 cat /proc/deferred_initcalls
-logcat -d > /sdcard/bootlog.txt
