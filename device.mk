@@ -14,5 +14,5 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     init.modem.rc
 
-PRODUCT_NAME := full_gts28wifi
-PRODUCT_DEVICE := gts28wifi
+PRODUCT_NAME := full_gts210wifi
+PRODUCT_DEVICE := gts210wifi

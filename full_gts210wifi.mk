@@ -16,12 +16,12 @@
 PRODUCT_COPY_FILES := device/sample/etc/apns-full-conf.xml:system/etc/apns-conf.xml
 
 # Inherit device configuration
-$(call inherit-product, device/samsung/gts28wifi/device.mk)
-$(call inherit-product, device/samsung/gts28wifi/device-common.mk)
+$(call inherit-product, device/samsung/gts210wifi/device.mk)
+$(call inherit-product, device/samsung/gts210wifi/device-common.mk)
 
 # Device identifier. This must come after all inclusions
-PRODUCT_DEVICE := gts28wifi
-PRODUCT_NAME := full_gts28wifi
+PRODUCT_DEVICE := gts210wifi
+PRODUCT_NAME := full_gts210wifi
 PRODUCT_BRAND := samsung
-PRODUCT_MODEL := SM-T710
+PRODUCT_MODEL := SM-T810
 PRODUCT_MANUFACTURER := samsung

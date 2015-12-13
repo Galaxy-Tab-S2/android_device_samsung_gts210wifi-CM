@@ -3,9 +3,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
 # The gps config appropriate for this device
 $(call inherit-product, device/common/gps/gps_eu_supl.mk)
 
-DEVICE_PACKAGE_OVERLAYS += device/samsung/gts28wifi/overlay
+DEVICE_PACKAGE_OVERLAYS += device/samsung/gts210wifi/overlay
 
-LOCAL_PATH := device/samsung/gts28wifi
+LOCAL_PATH := device/samsung/gts210wifi
 
 ###########################################################
 ### RAMDISK
@@ -358,7 +358,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 $(call inherit-product-if-exists, build/target/product/full.mk)
 
 # call the proprietary setup
-$(call inherit-product-if-exists, vendor/samsung/gts28wifi/gts28wifi-vendor.mk)
+$(call inherit-product-if-exists, vendor/samsung/gts210wifi/gts210wifi-vendor.mk)
 
 # call Samsung LSI board support package
 $(call inherit-product, hardware/samsung_slsi-cm/exynos5433/exynos5433.mk)
