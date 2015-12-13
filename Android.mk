@@ -16,12 +16,12 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifneq ($(filter gts28wifi, $(TARGET_DEVICE)),)
+ifneq ($(filter gts210wifi, $(TARGET_DEVICE)),)
 
-$(shell mkdir -p out/target/product/gts28wifi/obj/KERNEL_OBJ/drivers/net/wireless/bcmdhd4358)
-$(shell mkdir -p out/target/product/gts28wifi/obj/KERNEL_OBJ/drivers/sensorhub/brcm/factory)
-$(shell mkdir -p out/target/product/gts28wifi/obj/KERNEL_OBJ/drivers/media/platform/exynos/fimc-is/sensor)
-$(shell mkdir -p out/target/product/gts28wifi/obj/KERNEL_OBJ/security/tima_uevent)
+$(shell mkdir -p out/target/product/gts210wifi/obj/KERNEL_OBJ/drivers/net/wireless/bcmdhd4358)
+$(shell mkdir -p out/target/product/gts210wifi/obj/KERNEL_OBJ/drivers/sensorhub/brcm/factory)
+$(shell mkdir -p out/target/product/gts210wifi/obj/KERNEL_OBJ/drivers/media/platform/exynos/fimc-is/sensor)
+$(shell mkdir -p out/target/product/gts210wifi/obj/KERNEL_OBJ/security/tima_uevent)
 
 include $(call all-subdir-makefiles,$(LOCAL_PATH))
 

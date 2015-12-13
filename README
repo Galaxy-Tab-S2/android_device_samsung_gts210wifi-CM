@@ -1,10 +1,10 @@
-#CyanogenMod 12.1 Device configuration for the Samsung Galaxy Tab S2 Wifi T710
+#CyanogenMod 12.1 Device configuration for the Samsung Galaxy Tab S2 Wifi T810
 
-Codename : gts28wifi
+Codename : gts210wifi
 --------------------
 SoC	 : Exynos 5433
 --------------------
-Size	 : 8 Inch
+Size	 : 9.7 Inch
 --------------------
 Display	 : AMOLED 2048x1536 4:3
 --------------------
@@ -17,6 +17,6 @@ Camera	 : 8MP
 Stock OS : Android 5.0.2/5.1.1
 
 
-Tree based on Note 4 Exynos EOS build by team EOS
+Tree based on T710 tree by CTXz
 
-Tree by CTXz
+Tree by T_I

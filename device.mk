@@ -1,4 +1,4 @@
-LOCAL_PATH := device/samsung/gts28wifi
+LOCAL_PATH := device/samsung/gts210wifi
 
 ###########################################################
 ### FLAT DEVICE TREE

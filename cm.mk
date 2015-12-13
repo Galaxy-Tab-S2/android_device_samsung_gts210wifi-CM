@@ -16,8 +16,8 @@
 $(call inherit-product, vendor/cm/config/common_full_tablet_wifionly.mk)
 
 # Inherit device configuration
-$(call inherit-product, device/samsung/gts28wifi/full_gts28wifi.mk)
+$(call inherit-product, device/samsung/gts210wifi/full_gts210wifi.mk)
 
 # Release name
-PRODUCT_RELEASE_NAME := SM-T710
-PRODUCT_NAME := cm_gts28wifi
+PRODUCT_RELEASE_NAME := SM-T810
+PRODUCT_NAME := cm_gts210wifi

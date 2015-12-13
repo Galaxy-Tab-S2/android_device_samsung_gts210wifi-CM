@@ -15,4 +15,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/full_gts28wifi.mk
+    $(LOCAL_DIR)/full_gts210wifi.mk

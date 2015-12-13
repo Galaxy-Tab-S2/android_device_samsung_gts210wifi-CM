@@ -1,6 +1,6 @@
 USE_CAMERA_STUB := true
 
-LOCAL_PATH := device/samsung/gts28wifi
+LOCAL_PATH := device/samsung/gts210wifi
 
 TARGET_ARCH := arm
 TARGET_NO_BOOTLOADER := true
@@ -26,11 +26,11 @@ TARGET_BOOTLOADER_BOARD_NAME := universal5433
 BOARD_KERNEL_BASE := 0x10000000
 BOARD_KERNEL_PAGESIZE := 2048
 #BOARD_KERNEL_CMDLINE := The bootloader ignores the cmdline from the boot.img
-TARGET_KERNEL_CONFIG := cm_exynos5433-gts28wifi_defconfig
-TARGET_KERNEL_SOURCE := kernel/samsung/gts28wifi
+TARGET_KERNEL_CONFIG := cm_exynos5433-gts210wifi_defconfig
+TARGET_KERNEL_SOURCE := kernel/samsung/gts210wifi
 
 # Extracted with libbootimg
-BOARD_MKBOOTIMG_ARGS := --kernel_offset 0x00008000 --ramdisk_offset 0x01000000 --tags_offset 0x00000100 --dt device/samsung/gts28wifi/dtb.img --board SYSMAGIC000K
+BOARD_MKBOOTIMG_ARGS := --kernel_offset 0x00008000 --ramdisk_offset 0x01000000 --tags_offset 0x00000100 --dt device/samsung/gts210wifi/dtb.img --board SYSMAGIC000K
 
 #Partitions
 BOARD_BOOTIMAGE_PARTITION_SIZE :=     0x105c0000
@@ -121,7 +121,7 @@ BOARD_HDMI_INCAPABLE := true
 TARGET_SPECIFIC_HEADER_PATH := $(LOCAL_PATH)/include
 
 # Hardware
-BOARD_HARDWARE_CLASS += device/samsung/gts28wifi/cmhw
+BOARD_HARDWARE_CLASS += device/samsung/gts210wifi/cmhw
 
 # WIFI
 BOARD_WPA_SUPPLICANT_DRIVER      := NL80211
@@ -157,11 +157,11 @@ CHARGING_ENABLED_PATH := /sys/class/power_supply/battery/batt_lp_charging
 
 # Recovery
 TARGET_RECOVERY_FSTAB := $(LOCAL_PATH)/rootdir/etc/fstab.universal5433
-TARGET_OTA_ASSERT_DEVICE := gts28wifi,gts28wifixx
+TARGET_OTA_ASSERT_DEVICE := gts210wifi,gts210wifixx
 
 # SeLinux
 BOARD_SEPOLICY_DIRS := \
-	device/samsung/gts28wifi/sepolicy
+	device/samsung/gts210wifi/sepolicy
 
 BOARD_SEPOLICY_UNION := \
 	app.te \

@@ -1,2 +1,2 @@
-add_lunch_combo cm_gts28wifi-eng
-add_lunch_combo cm_gts28wifi-userdebug
+add_lunch_combo cm_gts210wifi-eng
+add_lunch_combo cm_gts210wifi-userdebug
