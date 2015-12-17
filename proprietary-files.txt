@@ -48,12 +48,16 @@ lib/hw/gps.default.so:lib/hw/gps.default.so
 vendor/lib/libmalicore.bc
 vendor/lib/egl/libGLES_mali.so
 vendor/lib/libRSDriverArm.so
+lib/hw/hwcomposer.exynos5.so
+lib/libhwcutilsmodule.so
+lib/libhwcutils.so
 
 ### OMX
 lib/omx/libOMX.Exynos.AVC.Encoder.so
 
 ### Sensors
 lib/hw/sensors.exynos5.so
+lib/hw/sensors.goldfish.so
 lib/libsensorlistener.so
 lib/libsensorservice.so
 lib/libyasalgo.so
