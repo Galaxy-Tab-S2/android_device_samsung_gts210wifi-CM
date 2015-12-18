@@ -57,6 +57,7 @@ lib/omx/libOMX.Exynos.AVC.Encoder.so
 
 ### Sensors
 lib/hw/sensors.exynos5.so
+#lib/hw/sensors.goldfish.so
 #lib/libsensorlistener.so
 lib/libsensorservice.so
 lib/libyasalgo.so
