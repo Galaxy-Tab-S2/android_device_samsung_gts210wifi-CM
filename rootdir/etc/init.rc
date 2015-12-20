@@ -10,6 +10,7 @@ import /init.universal5433.rc
 echo "ro.hardware ${ro.hardware}" > /data/media/0/tmp/vars.out
 echo "ro.zygote ${ro.zygote}" >> /data/media/0/tmp/vars.out
 import /init.${ro.hardware}.rc
+import /init.${ro.product.board}.rc
 import /init.${ro.zygote}.rc
 import /init.trace.rc
 import /init.sec_debug.rc
