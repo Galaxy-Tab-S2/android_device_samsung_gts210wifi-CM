@@ -10,7 +10,9 @@
 /dev/block/platform/15540000.dwmmc0/by-name/EFS		/efs		    ext4	nosuid,nodev,noatime,noauto_da_alloc,discard,journal_async_commit,data=ordered,errors=panic	wait,check
 /dev/block/platform/15540000.dwmmc0/by-name/CACHE	/cache		    ext4	noatime,nosuid,nodev,discard,noauto_da_alloc,journal_async_commit,errors=panic			wait,check
 /dev/block/platform/15540000.dwmmc0/by-name/USERDATA	/data		    ext4	noatime,nosuid,nodev,discard,noauto_da_alloc,journal_async_commit,errors=panic			wait,check,encryptable=footer
+# Dirty hack to get sdcard1 available                                                           
+/dev/block/platform/15560000.dwmmc2/mmcblk1p1	/storage/sdcard1    vfat	defaults
 
 # VOLD
 /devices/platform/dw_mmc.2/mmc_host/mmc2		auto 			auto	default	    voldmanaged=sdcard1:auto
-devices/platform/exynos-dwc3.0/exynos-xhci/            auto                    auto    default     voldmanaged=usbdisk:auto
+/devices/platform/exynos-dwc3.0/exynos-xhci            auto                    auto    default     voldmanaged=usbdisk:auto
