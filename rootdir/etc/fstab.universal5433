@@ -12,5 +12,5 @@
 /dev/block/platform/15540000.dwmmc0/by-name/USERDATA	/data		    ext4	noatime,nosuid,nodev,discard,noauto_da_alloc,journal_async_commit,errors=panic			wait,check,encryptable=footer
 
 # VOLD
-/devices/platform/dw_mmc.2/mmc_host/mmc2		auto 			auto	default	    voldmanaged=sdcard1:auto
+/devices/15560000.dwmmc2/mmc_host/mmc* auto 			auto	default	    voldmanaged=sdcard1:auto
 /devices/platform/exynos-dwc3.0/exynos-xhci            auto                    auto    default     voldmanaged=usbdisk:auto
