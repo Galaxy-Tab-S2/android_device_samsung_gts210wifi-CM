@@ -25,7 +25,7 @@ TARGET_BOOTLOADER_BOARD_NAME := universal5433
 #Kernel
 BOARD_KERNEL_BASE := 0x10000000
 BOARD_KERNEL_PAGESIZE := 2048
-#BOARD_KERNEL_CMDLINE := The bootloader ignores the cmdline from the boot.img
+BOARD_KERNEL_CMDLINE += androidboot.selinux=permissive
 TARGET_KERNEL_CONFIG := cm_exynos5433-gts210wifi_defconfig
 TARGET_KERNEL_SOURCE := kernel/samsung/gts210wifi
 
