@@ -119,13 +119,8 @@ const struct route_config media_earpiece = {
     "media-main-mic"
 };
 
-const struct route_config media_headphones = {
-    "media-headphones",
-    "media-main-mic"
-};
-
 const struct route_config media_headset = {
-    "media-headphones",
+    "media-headset",
     "media-headset-mic"
 };
 
@@ -184,9 +179,8 @@ const struct route_config communication_headset = {
     "communication-headset-mic"
 };
 
-const struct route_config speaker_and_headphones = {
-    "speaker-and-headphones",
-    "main-mic"
+const struct route_config media_speaker_headset = {
+    "media_speaker_headset"
 };
 
 const struct route_config bt_sco_carkit = {
@@ -205,11 +199,10 @@ const struct route_config * const route_configs[IN_SOURCE_TAB_SIZE]
         &media_speaker,             /* OUT_DEVICE_SPEAKER */
         &media_earpiece,            /* OUT_DEVICE_EARPIECE */
         &media_headset,             /* OUT_DEVICE_HEADSET */
-        &media_headphones,          /* OUT_DEVICE_HEADPHONES */
         &media_bt_sco,              /* OUT_DEVICE_BT_SCO */
         &media_bt_sco_headset_out,  /* OUT_DEVICE_BT_SCO_HEADSET_OUT */
         &bt_sco_carkit,             /* OUT_DEVICE_BT_SCO_CARKIT */
-        &speaker_and_headphones,    /* OUT_DEVICE_SPEAKER_AND_HEADSET */
+        &media_speaker_headset,     /* OUT_DEVICE_SPEAKER_AND_HEADSET */
         &media_speaker              /* OUT_DEVICE_SPEAKER_AND_EARPIECE */
     },
     {   /* IN_SOURCE_CAMCORDER */
@@ -231,7 +224,7 @@ const struct route_config * const route_configs[IN_SOURCE_TAB_SIZE]
         &media_bt_sco,              /* OUT_DEVICE_BT_SCO */
         &media_bt_sco_headset_out,  /* OUT_DEVICE_BT_SCO_HEADSET_OUT */
         &bt_sco_carkit,             /* OUT_DEVICE_BT_SCO_CARKIT */
-        &speaker_and_headphones,    /* OUT_DEVICE_SPEAKER_AND_HEADSET */
+        &media_speaker_headset,     /* OUT_DEVICE_SPEAKER_AND_HEADSET */
         &voice_rec_speaker          /* OUT_DEVICE_SPEAKER_AND_EARPIECE */
     },
     {   /* IN_SOURCE_VOICE_COMMUNICATION */
@@ -242,7 +235,7 @@ const struct route_config * const route_configs[IN_SOURCE_TAB_SIZE]
         &media_bt_sco,              /* OUT_DEVICE_BT_SCO */
         &media_bt_sco_headset_out,  /* OUT_DEVICE_BT_SCO_HEADSET_OUT */
         &bt_sco_carkit,             /* OUT_DEVICE_BT_SCO_CARKIT */
-        &speaker_and_headphones,    /* OUT_DEVICE_SPEAKER_AND_HEADSET */
+        &media_speaker_headset,     /* OUT_DEVICE_SPEAKER_AND_HEADSET */
         &communication_earpiece     /* OUT_DEVICE_SPEAKER_AND_EARPIECE */
     },
     {   /* IN_SOURCE_VOICE_CALL */
