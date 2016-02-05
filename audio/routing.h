@@ -199,6 +199,7 @@ const struct route_config * const route_configs[IN_SOURCE_TAB_SIZE]
         &media_speaker,             /* OUT_DEVICE_SPEAKER */
         &media_earpiece,            /* OUT_DEVICE_EARPIECE */
         &media_headset,             /* OUT_DEVICE_HEADSET */
+        &media_headset,             /* OUT_DEVICE_HEADPHONES */
         &media_bt_sco,              /* OUT_DEVICE_BT_SCO */
         &media_bt_sco_headset_out,  /* OUT_DEVICE_BT_SCO_HEADSET_OUT */
         &bt_sco_carkit,             /* OUT_DEVICE_BT_SCO_CARKIT */
