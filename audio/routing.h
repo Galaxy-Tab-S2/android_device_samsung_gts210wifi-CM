@@ -180,7 +180,7 @@ const struct route_config communication_headset = {
 };
 
 const struct route_config media_speaker_headset = {
-    "media_speaker_headset"
+    "media_speaker_headset",
 };
 
 const struct route_config bt_sco_carkit = {
