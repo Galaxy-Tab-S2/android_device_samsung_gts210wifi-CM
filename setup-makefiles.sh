@@ -1,5 +1,5 @@
 #!/bin/bash
 
-VENDOR=samsung
-DEVICE=gts210wifi
+export VENDOR=samsung
+export DEVICE=gts210wifi
 ./../../$VENDOR/gts2-common/setup-makefiles.sh $@
