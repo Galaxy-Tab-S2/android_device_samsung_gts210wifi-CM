@@ -4,6 +4,7 @@
 LOCAL_PATH := device/samsung/gts210wifi
 
 #Kernel
+#TARGET_KERNEL_SOURCE := kernel/samsung/gts210wifi
 TARGET_KERNEL_CONFIG := cm_exynos5433-gts210wifi_defconfig
 
 # Extracted with libbootimg
