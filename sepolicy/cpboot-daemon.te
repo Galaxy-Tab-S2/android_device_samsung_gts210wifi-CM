@@ -1,2 +1,0 @@
-type cpboot-daemon, domain;
-type cpboot-daemon_exec, exec_type, file_type;
