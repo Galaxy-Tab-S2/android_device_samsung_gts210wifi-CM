@@ -1,51 +1,13 @@
 #
-# Original TabS2 5.1.1 from device/samsung/gts210wifi/system.prop
+# system.prop for gts210ltexx
 #
-#
-# system.prop for universal5433
-#
-ro.arch=exynos5433
-persist.demo.hdmirotationlock=false
 
-# LCD Density
-ro.sf.lcd_density=320
-
-#rotation
-ro.sf.hwrotation=270
-
-rild.libpath=/system/lib/libsec-ril.so
+# RIL
 rild.libargs=-d /dev/ttyS0
-
-# RIL team modification
-# netmgrd should be false in EVO-RIL model
-ro.use_data_netmgrd=false
-
-# RIL team modification
-# qos will temporary false while supporting qos in EVO-RIL.
-persist.data.netmgrd.qos.enable=false
-
-ro.data.large_tcp_window_size=true
-
-#
-# System props for telephony
-# System prop to turn on CdmaLTEPhone always
-telephony.lteOnCdmaDevice=0
-
-# System proverty for sys info indication
-persist.radio.add_power_save=1
-
-# Keep SIM state on LPM mode
+rild.libpath=/system/lib/libsec-ril.so
+ro.ril.hsxpa=1
+ro.ril.gprsclass=10
+ro.ril.telephony.mqanelements=5
+ro.telephony.default_network=9
+ro.telephony.ril_class=SlteRIL
 persist.radio.apm_sim_not_pwdn=1
-
-# slook
-ro.slook.ver=1
-
-# WIFI model
-ro.carrier=wifi-only
-
-# Multimedia property for Smart View
-media.enable-commonsource=true
-
-persist.sys.storage_preload=1
-
-

@@ -1,22 +1,13 @@
-#CyanogenMod 12.1 Device configuration for the Samsung Galaxy Tab S2 Wifi T810
+Device configuration for the Samsung Galaxy Tab S2 (T815 variant)
 
-Codename : gts210wifi
---------------------
-SoC	 : Exynos 5433
---------------------
-Size	 : 9.7 Inch
---------------------
-Display	 : AMOLED 2048x1536 4:3
---------------------
-RAM	 : 3GB
---------------------
-ROM	 : 32/64GB
---------------------
-Camera	 : 8MP
---------------------
-Stock OS : Android 5.0.2/5.1.1
+Copyright (C) 2015 Christopher N. Hesse <raymanfx@gmail.com>
 
+ Licensed under the Apache License, Version 2.0 (the "License");
+ you may not use this file except in compliance with the License.
+ You may obtain a copy of the License at
 
-Tree based on T710 tree by CTXz
+      http://www.apache.org/licenses/LICENSE-2.0
 
-Tree by T_I
+------------------------------------------------------------------
+
+EOF
