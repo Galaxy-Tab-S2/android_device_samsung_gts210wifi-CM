@@ -8,3 +8,36 @@ ro.sf.hwrotation=270
 # No phone/lte module
 hw.nophone=true
 ro.radio.noril=yes
+
+# settings below taken from cm-12.1
+persist.sys.storage_preload=1
+
+ro.use_data_netmgrd=false
+persist.demo.hdmirotationlock=true
+rild.libpath=/system/lib/libsec-ril.so
+rild.libargs=-d /dev/ttyS0
+
+ro.use_data_netmgrd=false
+persist.data.netmgrd.qos.enable=false
+
+ro.data.large_tcp_window_size=true
+#
+# System props for telephony
+# System prop to turn on CdmaLTEPhone always
+telephony.lteOnCdmaDevice=0
+
+# System proverty for sys info indication
+persist.radio.add_power_save=1
+
+# Keep SIM state on LPM mode
+persist.radio.apm_sim_not_pwdn=1
+
+# slook
+ro.slook.ver=1
+
+# WIFI model
+ro.carrier=wifi-only
+
+# Multimedia property for Smart View
+media.enable-commonsource=true
+
