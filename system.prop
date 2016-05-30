@@ -2,12 +2,9 @@
 # system.prop for gts210wifi
 #
 
-# RIL
-rild.libargs=-d /dev/ttyS0
-rild.libpath=/system/lib/libsec-ril.so
-ro.ril.hsxpa=1
-ro.ril.gprsclass=10
-ro.ril.telephony.mqanelements=5
-ro.telephony.default_network=9
-ro.telephony.ril_class=SlteRIL
-persist.radio.apm_sim_not_pwdn=1
+# Rotate screen 9.7" devices
+ro.sf.hwrotation=270
+
+# No phone/lte module
+hw.nophone=true
+ro.radio.noril=yes
