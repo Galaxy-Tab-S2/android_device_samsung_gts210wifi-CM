@@ -42,7 +42,6 @@ vendor/firmware/setfile_6b2.bin
 
 # GPS
 bin/gpsd
-lib/libsecril-client.so
 lib/hw/gps.default.so:lib/hw/gps.default.so
 
 ### HWC
