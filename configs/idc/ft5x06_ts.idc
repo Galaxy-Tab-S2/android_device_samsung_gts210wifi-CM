@@ -1,4 +1,4 @@
-# Copyright (C) 2014 The CyanogenMod Project
+# Copyright (C) 2012 The Android Open Source Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -12,16 +12,21 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-# Get the long list of APNs
-PRODUCT_COPY_FILES := device/sample/etc/apns-full-conf.xml:system/etc/apns-conf.xml
+#
+# Input Device Calibration File for the touch screen.
+#
 
-# Inherit device configuration
-$(call inherit-product, device/samsung/gts210wifi/device.mk)
-$(call inherit-product, device/samsung/gts210wifi/device-common.mk)
+device.internal = 1
 
-# Device identifier. This must come after all inclusions
-PRODUCT_DEVICE := gts210wifi
-PRODUCT_NAME := full_gts210wifi
-PRODUCT_BRAND := samsung
-PRODUCT_MODEL := SM-T810
-PRODUCT_MANUFACTURER := samsung
+touch.deviceType = touchScreen
+touch.orientationAware = 1
+
+touch.size.calibration = area
+touch.size.scale = 52
+touch.size.bias = 11.8
+touch.size.isSummed = 0
+
+touch.pressure.calibration = amplitude
+touch.pressure.scale = 0.015
+
+touch.orientation.calibration = vector
