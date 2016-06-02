@@ -1,6 +1,6 @@
 LOCAL_PATH := $(call my-dir)
 
-ifneq ($(filter gts210wifi, $(TARGET_DEVICE)),)
+ifneq ($(filter gts210wifi gts210wifixx, $(TARGET_DEVICE)),)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE		:= init.baseband.rc
