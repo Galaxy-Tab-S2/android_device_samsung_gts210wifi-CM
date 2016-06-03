@@ -36,13 +36,14 @@ vendor/firmware/seiren_fw_sram.bin
 lib/hw/camera.universal5433.so
 lib/libexynoscamera.so
 lib/libhwjpeg.so
+lib/libsensorlistener.so
 lib/libvdis.so
 vendor/firmware/setfile_4h5.bin
 vendor/firmware/setfile_6b2.bin
 
 # GPS
 bin/gpsd
-lib/hw/gps.default.so:lib/hw/gps.default.so
+lib/hw/gps.default.so:lib/hw/gps.universal5433.so
 
 ### HWC
 vendor/lib/libmalicore.bc
