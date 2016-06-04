@@ -20,6 +20,9 @@ TARGET_CPU_ABI2 := armeabi
 TARGET_ARCH_VARIANT := armv7-a-neon
 TARGET_CPU_VARIANT := cortex-a15
 
+# big.LITTLE load balancing
+ENABLE_CPUSETS := true
+
 TARGET_BOOTLOADER_BOARD_NAME := universal5433
 
 #Kernel
