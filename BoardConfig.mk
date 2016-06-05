@@ -64,11 +64,22 @@ COMMON_GLOBAL_CFLAGS += -DDISABLE_HW_ID_MATCH_CHECK
 COMMON_GLOBAL_CFLAGS += -DSAMSUNG_CAMERA_HARDWARE
 
 # Graphics
-BOARD_EGL_CFG := $(LOCAL_PATH)/configs/egl/egl.cfg
 USE_OPENGL_RENDERER := true
-OVERRIDE_RS_DRIVER := libRSDriverArm.so
+
+# Shader cache config options
+# Maximum size of the  GLES Shaders that can be cached for reuse.
+# Increase the size if shaders of size greater than 12KB are used.
+MAX_EGL_CACHE_KEY_SIZE := 12*1024
+
+# Maximum GLES shader cache size for each app to store the compiled shader
+# binaries. Decrease the size if RAM or Flash Storage size is a limitation
+# of the device.
+MAX_EGL_CACHE_SIZE := 2048*1024
 
 # frameworks/native/services/surfaceflinger
+# Android keeps 2 surface buffers at all time in case the hwcomposer
+# misses the time to swap buffers (in cases where it takes 16ms or
+# less). Use 3 to avoid timing issues.
 NUM_FRAMEBUFFER_SURFACE_BUFFERS := 3
 
 # HWCServices
