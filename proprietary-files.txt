@@ -4,6 +4,7 @@ vendor/firmware/bcm4358A1_V0041.0073.hcd
 vendor/firmware/bcm4358A3_V0036.0055.hcd
 
 ### Wifi
+# firmware
 etc/wifi/bcmdhd_apsta.bin
 etc/wifi/bcmdhd_ibss.bin
 etc/wifi/bcmdhd_mfg.bin
@@ -32,6 +33,64 @@ vendor/firmware/fimc_is_fw2_4h5.bin
 vendor/firmware/seiren_fw_dram.bin
 vendor/firmware/seiren_fw_sram.bin
 
+# Noise supppression
+vendor/etc/nxp/BargeIn/Tx_ControlParams_WIDEBAND_ANALOG_DOCK.txt
+vendor/etc/nxp/BargeIn/Tx_ControlParams_WIDEBAND_BLUETOOTH_SCO_HEADSET.txt
+vendor/etc/nxp/BargeIn/Tx_ControlParams_WIDEBAND_EARPIECE.txt
+vendor/etc/nxp/BargeIn/Tx_ControlParams_WIDEBAND_SPEAKER.txt
+vendor/etc/nxp/BargeIn/Tx_ControlParams_WIDEBAND_WIRED_HEADPHONE.txt
+vendor/etc/nxp/BargeIn/Tx_ControlParams_WIDEBAND_WIRED_HEADSET.txt
+vendor/etc/nxp/BargeInDriving/Tx_ControlParams_WIDEBAND_ANALOG_DOCK.txt
+vendor/etc/nxp/BargeInDriving/Tx_ControlParams_WIDEBAND_BLUETOOTH_SCO_HEADSET.txt
+vendor/etc/nxp/BargeInDriving/Tx_ControlParams_WIDEBAND_EARPIECE.txt
+vendor/etc/nxp/BargeInDriving/Tx_ControlParams_WIDEBAND_SPEAKER.txt
+vendor/etc/nxp/BargeInDriving/Tx_ControlParams_WIDEBAND_WIRED_HEADPHONE.txt
+vendor/etc/nxp/BargeInDriving/Tx_ControlParams_WIDEBAND_WIRED_HEADSET.txt
+vendor/etc/nxp/LVVEFS_Rx_Configuration.txt
+vendor/etc/nxp/LVVEFS_Tx_Configuration.txt
+vendor/etc/nxp/mVoIP/Rx_ControlParams_NARROWBAND_BLUETOOTH_SCO_HEADSET.txt
+vendor/etc/nxp/mVoIP/Rx_ControlParams_NARROWBAND_EARPIECE.txt
+vendor/etc/nxp/mVoIP/Rx_ControlParams_NARROWBAND_SPEAKER.txt
+vendor/etc/nxp/mVoIP/Rx_ControlParams_NARROWBAND_WIRED_HEADPHONE.txt
+vendor/etc/nxp/mVoIP/Rx_ControlParams_NARROWBAND_WIRED_HEADSET.txt
+vendor/etc/nxp/mVoIP/Rx_ControlParams_WIDEBAND_BLUETOOTH_SCO_HEADSET.txt
+vendor/etc/nxp/mVoIP/Rx_ControlParams_WIDEBAND_EARPIECE.txt
+vendor/etc/nxp/mVoIP/Rx_ControlParams_WIDEBAND_SPEAKER.txt
+vendor/etc/nxp/mVoIP/Rx_ControlParams_WIDEBAND_WIRED_HEADPHONE.txt
+vendor/etc/nxp/mVoIP/Rx_ControlParams_WIDEBAND_WIRED_HEADSET.txt
+vendor/etc/nxp/mVoIP/Tx_ControlParams_NARROWBAND_BLUETOOTH_SCO_HEADSET.txt
+vendor/etc/nxp/mVoIP/Tx_ControlParams_NARROWBAND_EARPIECE.txt
+vendor/etc/nxp/mVoIP/Tx_ControlParams_NARROWBAND_SPEAKER.txt
+vendor/etc/nxp/mVoIP/Tx_ControlParams_NARROWBAND_WIRED_HEADPHONE.txt
+vendor/etc/nxp/mVoIP/Tx_ControlParams_NARROWBAND_WIRED_HEADSET.txt
+vendor/etc/nxp/mVoIP/Tx_ControlParams_WIDEBAND_BLUETOOTH_SCO_HEADSET.txt
+vendor/etc/nxp/mVoIP/Tx_ControlParams_WIDEBAND_EARPIECE.txt
+vendor/etc/nxp/mVoIP/Tx_ControlParams_WIDEBAND_SPEAKER.txt
+vendor/etc/nxp/mVoIP/Tx_ControlParams_WIDEBAND_WIRED_HEADPHONE.txt
+vendor/etc/nxp/mVoIP/Tx_ControlParams_WIDEBAND_WIRED_HEADSET.txt
+vendor/etc/nxp/mVoIPFMC/Rx_ControlParams_WIDEBAND_BLUETOOTH_SCO_HEADSET.txt
+vendor/etc/nxp/mVoIPFMC/Rx_ControlParams_WIDEBAND_EARPIECE.txt
+vendor/etc/nxp/mVoIPFMC/Rx_ControlParams_WIDEBAND_SPEAKER.txt
+vendor/etc/nxp/mVoIPFMC/Rx_ControlParams_WIDEBAND_WIRED_HEADPHONE.txt
+vendor/etc/nxp/mVoIPFMC/Rx_ControlParams_WIDEBAND_WIRED_HEADSET.txt
+vendor/etc/nxp/mVoIPFMC/Tx_ControlParams_WIDEBAND_BLUETOOTH_SCO_HEADSET.txt
+vendor/etc/nxp/mVoIPFMC/Tx_ControlParams_WIDEBAND_EARPIECE.txt
+vendor/etc/nxp/mVoIPFMC/Tx_ControlParams_WIDEBAND_SPEAKER.txt
+vendor/etc/nxp/mVoIPFMC/Tx_ControlParams_WIDEBAND_WIRED_HEADPHONE.txt
+vendor/etc/nxp/mVoIPFMC/Tx_ControlParams_WIDEBAND_WIRED_HEADSET.txt
+vendor/etc/nxp/mVoIPSec/Rx_ControlParams_WIDEBAND_BLUETOOTH_SCO_HEADSET.txt
+vendor/etc/nxp/mVoIPSec/Rx_ControlParams_WIDEBAND_EARPIECE.txt
+vendor/etc/nxp/mVoIPSec/Rx_ControlParams_WIDEBAND_SPEAKER.txt
+vendor/etc/nxp/mVoIPSec/Rx_ControlParams_WIDEBAND_WIRED_HEADPHONE.txt
+vendor/etc/nxp/mVoIPSec/Rx_ControlParams_WIDEBAND_WIRED_HEADSET.txt
+vendor/etc/nxp/mVoIPSec/Tx_ControlParams_WIDEBAND_BLUETOOTH_SCO_HEADSET.txt
+vendor/etc/nxp/mVoIPSec/Tx_ControlParams_WIDEBAND_EARPIECE.txt
+vendor/etc/nxp/mVoIPSec/Tx_ControlParams_WIDEBAND_SPEAKER.txt
+vendor/etc/nxp/mVoIPSec/Tx_ControlParams_WIDEBAND_WIRED_HEADPHONE.txt
+vendor/etc/nxp/mVoIPSec/Tx_ControlParams_WIDEBAND_WIRED_HEADSET.txt
+vendor/lib/liblvverx_3.27.02.so
+vendor/lib/liblvvetx_3.27.02.so
+
 ### Camera
 lib/hw/camera.universal5433.so
 lib/libexynoscamera.so
@@ -44,43 +103,37 @@ vendor/firmware/setfile_6b2.bin
 # GPS
 bin/gpsd
 lib/hw/gps.default.so:lib/hw/gps.universal5433.so
+#lib/libwrappergps.so (missing in l)
 
-### HWC
-vendor/lib/libmalicore.bc
+### ARM GPU
 vendor/lib/egl/libGLES_mali.so
-vendor/lib/libRSDriverArm.so
-#lib/hw/hwcomposer.exynos5.so
-#lib/libhwcutilsmodule.so
-#lib/libhwcutils.so
 
 ### OMX
-lib/libExynosOMX_Core.so
-lib/omx/libOMX.Exynos.MPEG4.Decoder.so 
+#lib/libExynosOMX_Core.so
+#lib/omx/libOMX.Exynos.MPEG4.Decoder.so 
 lib/omx/libOMX.Exynos.AVC.Encoder.so
-lib/omx/libOMX.Exynos.VP8.Encoder.so
-lib/omx/libOMX.Exynos.WMV.Decoder.so
-lib/omx/libOMX.Exynos.AVC.Decoder.so
-lib/omx/libOMX.Exynos.MP3.Decoder.so
-lib/omx/libOMX.Exynos.HEVC.Decoder.so
-lib/omx/libOMX.Exynos.AAC.Decoder.so
-lib/omx/libOMX.Exynos.VP8.Decoder.so
-lib/omx/libOMX.Exynos.MPEG4.Encoder.so
-lib/omx/libOMX.Exynos.FLAC.Decoder.so
+#lib/omx/libOMX.Exynos.VP8.Encoder.so
+#lib/omx/libOMX.Exynos.WMV.Decoder.so
+#lib/omx/libOMX.Exynos.AVC.Decoder.so
+#lib/omx/libOMX.Exynos.MP3.Decoder.so
+#lib/omx/libOMX.Exynos.HEVC.Decoder.so
+#lib/omx/libOMX.Exynos.AAC.Decoder.so
+#lib/omx/libOMX.Exynos.VP8.Decoder.so
+#lib/omx/libOMX.Exynos.MPEG4.Encoder.so
+#lib/omx/libOMX.Exynos.FLAC.Decoder.so
 
 ### Sensors
-lib/hw/sensors.exynos5.so
-#lib/hw/sensors.goldfish.so
-#lib/libsensorlistener.so
-lib/libsensorservice.so
 lib/libyasalgo.so
+lib/hw/sensors.exynos5.so
+#lib/libsensorservice.so
 
 ### Widevine
 lib/liboemcrypto.so
 vendor/lib/mediadrm/libdrmclearkeyplugin.so
 vendor/lib/mediadrm/libwvdrmengine.so
-vendor/lib/libWVStreamControlAPI_L1.so
 vendor/lib/libwvdrm_L1.so
 vendor/lib/libwvm.so
+vendor/lib/libWVStreamControlAPI_L1.so
 
 ### RIL
 lib/libsecnativefeature.so

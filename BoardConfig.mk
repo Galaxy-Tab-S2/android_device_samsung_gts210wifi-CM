@@ -83,9 +83,11 @@ MAX_EGL_CACHE_SIZE := 2048*1024
 NUM_FRAMEBUFFER_SURFACE_BUFFERS := 3
 
 # HWCServices
+# 'firmware/tsp_stm' directory dose not exist
 #BOARD_USES_HWC_SERVICES := true
 
 # HDMI
+#BOARD_USES_NEW_HDMI := true
 #BOARD_USES_GSC_VIDEO := true
 #BOARD_USES_CEC := true
 
