@@ -11,4 +11,6 @@ Based on T815 work of Christopher N. Hesse <raymanfx@gmail.com>
 
 ------------------------------------------------------------------
 
+Build with selinux disabled in init (system/core/init/init.cpp:992 -> security_setenforce(false); ) until a neater way is found.
+
 EOF
