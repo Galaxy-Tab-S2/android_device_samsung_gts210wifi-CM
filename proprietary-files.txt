@@ -125,7 +125,7 @@ lib/omx/libOMX.Exynos.AVC.Encoder.so
 ### Sensors
 lib/libyasalgo.so
 lib/hw/sensors.exynos5.so
-#lib/libsensorservice.so
+lib/libsensorservice.so
 
 ### Widevine
 lib/liboemcrypto.so
